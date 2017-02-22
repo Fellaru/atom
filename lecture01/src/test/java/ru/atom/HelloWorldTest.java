@@ -7,9 +7,6 @@ import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.hamcrest.core.IsNot.not;
 
-/**
- * Created by sergei-r on 03.01.17.
- */
 public class HelloWorldTest {
     @Test
     public void getHelloWorld() throws Exception {
