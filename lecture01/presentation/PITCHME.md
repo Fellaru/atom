@@ -23,8 +23,8 @@ https://atom.mail.ru/
 
 #HSLIDE
 # Цель курса
-Практическое введение в разработку серверных web приложений на Java на практике
-Практика - разработка сервера для мультиплеерной игры
+Практическое введение в разработку серверных web приложений на Java
+Практическая часть - разработка сервера для мультиплеерной игры
 
 **Мы научимся:**
 - разрабатывать
@@ -445,7 +445,7 @@ To better understand git - get some course)
 ```
 если вы его уже склонировали раньше, то обновите
 ```bash
-> git pull
+> git pull -r
 ```
 2. Настроим синхронизацию репозитория, чтобы вы работали со свежей версией кода
 ```bash
@@ -506,7 +506,7 @@ master
 ```
 взять новые изменения из удаленного репозитория
 ```bash
-> git pull
+> git pull -r
 ```
 
 #HSLIDE
@@ -523,7 +523,7 @@ master
 ```
 4. make changes and **push** them to **your fork**
 ```bash
-> git pull
+> git pull -r
 > git add MyFixedFile1.java MyFixedFile2.java
 > git commit -m 'Fixed all bugs and added new'
 > git push
@@ -552,7 +552,7 @@ do not need installation ([details](https://gradle.org/install)), just use:
 ```bat
 > gradlew.bat
 ```
-**Windows:**
+**linux/macOS:**
 ```bash
 > ./gradlew
 ```
