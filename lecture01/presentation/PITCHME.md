@@ -445,7 +445,7 @@ To better understand git - get some course)
 ```
 если вы его уже склонировали раньше, то обновите
 ```bash
-> git pull -r
+> git pull --rebase
 ```
 2. Настроим синхронизацию репозитория, чтобы вы работали со свежей версией кода
 ```bash
@@ -464,6 +464,7 @@ upstream https://github.com/rybalkinsd/atom.git (push)
 #HSLIDE
 ## Git branches
 https://www.atlassian.com/git/tutorials/using-branches
+<img src="lecture01/presentation/assets/img/branch.png" alt="me" style="width: 750px; float: left;"/>  
 
 #HSLIDE
 ## git branch commands
@@ -506,7 +507,7 @@ master
 ```
 взять новые изменения из удаленного репозитория
 ```bash
-> git pull -r
+> git pull --rebase
 ```
 
 #HSLIDE
@@ -523,7 +524,7 @@ master
 ```
 4. make changes and **push** them to **your fork**
 ```bash
-> git pull -r
+> git pull --rebase
 > git add MyFixedFile1.java MyFixedFile2.java
 > git commit -m 'Fixed all bugs and added new'
 > git push
